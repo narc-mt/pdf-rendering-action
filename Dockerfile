@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 RUN apt-get update
 RUN apt-get -y install pandoc
-RUN apt-get -y install texlive-latest-bast texlive-fonts-recommended
+RUN apt-get -y install texlive-latest-base texlive-fonts-recommended
 
 
 ADD entrypoint.sh /entrypoint.sh
