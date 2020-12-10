@@ -1,3 +1,5 @@
+#!/bin/bash
+
 base_name=$(basename -- "${1}")
 extension=${base_name##*.}
 prefix=${base_name%.*}
