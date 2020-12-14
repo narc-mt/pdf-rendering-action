@@ -4,7 +4,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update
 RUN apt-get -y install pandoc
-RUN apt-get -y install texlive-latex-recommended texlive-fonts-recommended
+RUN apt-get -y install texlive texlive-fonts-recommended
 
 
 ADD entrypoint.sh /entrypoint.sh
