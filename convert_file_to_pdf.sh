@@ -6,3 +6,4 @@ prefix=${base_name%.*}
 
 
 pandoc "${1}" -o "${2}/${prefix}.pdf"
+echo ::set-output name=PDF::"${2}/${prefix}.pdf"
