@@ -5,4 +5,4 @@ extension=${base_name##*.}
 prefix=${base_name%.*}
 
 
-pandoc ${1} -o ${2}/${base_name}.pdf
+pandoc "${1}" -o "${2}/${prefix}.pdf"
